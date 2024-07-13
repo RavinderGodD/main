@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC&display=swap');
+
+body{
+    background-color: rgb(41, 39, 39);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ububtu',sans-serif;
+
+}
+
+nav ul{
+    display:flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.homee a i{
+    width: 50px;
+    color: whitesmoke;
+}
+
+.Brand img{
+    width: 49px;
+    padding: 0 8px;
+}
+
+.Brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 86%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: contain;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 86%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('sbg.png');
+    background-size: contain;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+    
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 90vw;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: all 30s;
+    transition-duration: 2s;
+}
+
+
+.songitemcontainer{
+    margin-top: 60px;
+}
+
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: rgb(46, 42, 42);
+    color: whitesmoke;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 60px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 10px;
+}
+
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 100px;
+    bottom: 40px;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
