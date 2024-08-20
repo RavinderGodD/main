@@ -11,7 +11,7 @@ let gif = document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItem = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName: "Dilemma (Steff london And Sidhu Moose wala)", filePath:"songs/1.mp3", coverPath: "1.jpg."},
+    {songName: "Dilemma (Steff london And Sidhu Moose wala)", filePath:"1.mp3", coverPath: "first.jpg"},
     {songName: "East Side Flow (Sidhu Moose Wala)", filePath:"2.mp3", coverPath: "2.jpg"},
     {songName: "The Last Ride (Sidhu Moose Wala)", filePath:"3.mp3", coverPath: "3.jpg"},
     {songName: "Udda Adda (WAZIR PATAR)", filePath:"4.mp3", coverPath: "4.jpg"},
