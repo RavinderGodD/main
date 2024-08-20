@@ -11,7 +11,7 @@ let gif = document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItem = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName: "Sintches(Sidhu Moose wala)", filePath:"1.mp3", coverPath: "jfirst.jpg."},
+    {songName: "Sintches(Sidhu Moose wala)", filePath:"1.mp3", coverPath: "jfirst.jpg"},
     {songName: "295(Sidhu Moose Wala)", filePath:"2.mp3", coverPath: "2.jpg"},
     {songName: "its All About U(Sidhu Moose Wala)", filePath:"3.mp3", coverPath: "3.jpg"},
     {songName: "Bitch I AM BACK(Sidhu Moose Wala)", filePath:"4.mp3", coverPath: "4.jpg"},
